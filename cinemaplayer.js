@@ -60,6 +60,8 @@ function cinemaPlayerInit(elem) {
           // video.controls = true;
           video.muted = true;
           video.autoplay = true;
+          video.style.width = "100%";
+          video.style.height = "100%";
 
           playerElement.style.position = 'relative';
           playerElement.appendChild(video);
