@@ -78,13 +78,13 @@ function cinemaPlayerInit(elem) {
           muteButton.style.display = 'flex';
           muteButton.style.alignItems = 'center';
           muteButton.style.justifyContent = 'center';
-          muteButton.innerHTML = `<img src="../images/volume-mute.svg" alt="Mute/Unmute" style="width: 24px; height: 24px;">`;
+          muteButton.innerHTML = `<img src="https://vmansky.github.io/images/volume-mute.svg" alt="Mute/Unmute" style="width: 24px; height: 24px;">`;
 
           playerElement.appendChild(muteButton);
 
           muteButton.addEventListener('click', () => {
             video.muted = !video.muted;
-            const iconPath = video.muted ? '../images/volume-mute.svg' : '../images/volume.svg';
+            const iconPath = video.muted ? 'https://vmansky.github.io/images/volume-mute.svg' : 'https://vmansky.github.io/images/volume.svg';
             muteButton.innerHTML = `<img src="${iconPath}" alt="Mute/Unmute" style="width: 24px; height: 24px;">`;
           });
 
