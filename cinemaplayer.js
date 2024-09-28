@@ -128,9 +128,9 @@ function cinemaPlayerInit(elem) {
   }
 
   // !!!! YANDEX
-  const vastUrl = 'https://yandex.ru/ads/adfox/399755/getCode?pp=euvh&ps=icqo&p2=hiuy&dl=kinomed.xyz&puid10=2';
+  // const vastUrl = 'https://yandex.ru/ads/adfox/399755/getCode?pp=euvh&ps=icqo&p2=hiuy&dl=kinomed.xyz&puid10=2';
   //!!!! Тестовый
-  // const vastUrl = 'https://basil79.github.io/vast-sample-tags/pg/vast.xml';
+  const vastUrl = 'https://basil79.github.io/vast-sample-tags/pg/vast.xml';
   loadVastAd(vastUrl, c);
   // конец
 
